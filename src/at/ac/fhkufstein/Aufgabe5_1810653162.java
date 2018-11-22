@@ -10,7 +10,7 @@ public class Aufgabe5_1810653162
         System.out.println("--------------------------------------");
         whileSchleife(10);
         System.out.println("--------------------------------------");
-        whileSchleife(20);
+        whileSchleife(15);
         System.out.println("--------------------------------------");
         nutzerSchleife();
     }
@@ -27,15 +27,14 @@ public class Aufgabe5_1810653162
     private static void whileSchleife(int a)
     {
         int i = 0;
-        int durchlaeufe = 0;
         while(i <= a)
         {
             if(i%2 == 0)
             {
-                System.out.println("Der Schleifenzähler ist: " + i + " DurchlaufNr.: " + durchlaeufe);
+                // i/ 2 +1 --> Schritte werden mit +2 angegeben d.h. aktueller Schritt = /2 und statt 0 basiert mit +1 auf 1er basierend
+                System.out.println("Der Schleifenzähler ist: " + i + " DurchlaufNr.: " + ((i/2)+1));
             }
-            i += 2;
-            durchlaeufe++;
+            i++;
         }
     }
 
