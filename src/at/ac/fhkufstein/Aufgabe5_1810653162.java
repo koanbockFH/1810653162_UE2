@@ -34,7 +34,7 @@ public class Aufgabe5_1810653162
                 // i/ 2 +1 --> Schritte werden mit +2 angegeben d.h. aktueller Schritt = /2 und statt 0 basiert mit +1 auf 1er basierend
                 System.out.println("Der Schleifenzähler ist: " + i + " DurchlaufNr.: " + ((i/2)+1));
             }
-            i++;
+            i+=2;
         }
     }
 
