@@ -38,7 +38,7 @@ public class UserDialogHelper
         return StringHelper.ToBoolean(value);
     }
     /*
-        Ask the User for a Boolean
+        Ask the User for a long
      */
     public static long GetLongFromUser(String msg)
     {
@@ -49,7 +49,7 @@ public class UserDialogHelper
         return StringHelper.ToLong(value);
     }
     /*
-        Ask the User for a Boolean
+        Ask the User for a char
      */
     public static char GetCharFromUser(String msg)
     {
@@ -60,7 +60,7 @@ public class UserDialogHelper
         return StringHelper.ToChar(value);
     }
     /*
-        Ask the User for a Boolean
+        Ask the User for a byte
      */
     public static byte GetByteFromUser(String msg)
     {
@@ -71,7 +71,7 @@ public class UserDialogHelper
         return StringHelper.ToByte(value);
     }
     /*
-        Ask the User for a Boolean
+        Ask the User for a short
      */
     public static short GetShortFromUser(String msg)
     {
@@ -82,7 +82,7 @@ public class UserDialogHelper
         return StringHelper.ToShort(value);
     }
     /*
-        Ask the User for a Boolean
+        Ask the User for a Float
      */
     public static float GetFloatFromUser(String msg)
     {
