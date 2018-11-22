@@ -8,8 +8,8 @@ public class Aufgabe2_1810653162
     public static void main(String[] args)
     {
         //Get Values from User
-        int value1 = GetIntegerFromUser();
-        int value2 = GetIntegerFromUser();
+        int value1 = UserDialogHelper.GetIntegerFromUser("Please enter a Value between 0-10");
+        int value2 = UserDialogHelper.GetIntegerFromUser("Please enter a Value between 0-10");
 
         //Compare Values and do sth after
         if (value1 == value2)
@@ -43,18 +43,6 @@ public class Aufgabe2_1810653162
         }
         //Report results
         System.out.println(String.format("%d Schritte waren nötig, die Zahl war %d", i, value1));
-    }
-
-    /*
-        Ask the User for a Number between 0-10 and convert it to an integer
-     */
-    private static int GetIntegerFromUser()
-    {
-        String value = JOptionPane.showInputDialog("Please enter a Value between 0-10");
-
-        //if needed implement validation here
-
-        return StringHelper.ToInteger(value);
     }
 }
 
